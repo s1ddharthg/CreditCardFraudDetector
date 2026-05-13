@@ -1,8 +1,0 @@
-KEYWORDS = ["case", "case competition", "consulting"]
-
-CHECK_INTERVAL_MINUTES = 10
-
-TWILIO_SID = 'AC65ecbc0a905ac73205ec52009e25471e'
-TWILIO_AUTH = '3a63a501c04f5f3414c6a3f8a27e3283'
-WHATSAPP_FROM = "whatsapp:+14155238886"
-WHATSAPP_TO = "whatsapp:+917550214505"
