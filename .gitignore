@@ -1,0 +1,4 @@
+.venv/
+data/
+app.py
+fraud_detection_model.pkl
