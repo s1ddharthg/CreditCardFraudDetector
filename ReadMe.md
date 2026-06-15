@@ -8,9 +8,19 @@ A modern, end-to-end Machine Learning web application designed to detect fraudul
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.6.0-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## 🌐 Live Demo
+
+The app is deployed on Streamlit Community Cloud:
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://transactionfrauddetector.streamlit.app/)
+
+👉 **[transactionfrauddetector.streamlit.app](https://transactionfrauddetector.streamlit.app/)**
 
 ---
 
@@ -30,6 +40,8 @@ A modern, end-to-end Machine Learning web application designed to detect fraudul
 ├── app.py                      # Streamlit application (Frontend UI & prediction)
 ├── model.ipynb                 # Jupyter Notebook for EDA & model training
 ├── fraud_detection_model.pkl   # Serialized scikit-learn pipeline (joblib)
+├── requirements.txt            # Python dependencies for the Streamlit app
+├── runtime.txt                 # Pinned Python version for Streamlit Cloud
 ├── .gitignore                  # Git ignore files (.venv, data, model files)
 ├── LICENSE                     # MIT License details
 └── ReadMe.md                   # Project documentation
@@ -77,8 +89,11 @@ source .venv/bin/activate
 Install the required packages using `pip`:
 
 ```bash
-pip install pandas==2.2.3 scikit-learn==1.6.0 matplotlib==3.9.3 streamlit joblib kagglehub[pandas-datasets]
+pip install -r requirements.txt
 ```
+
+> [!NOTE]
+> The `model.ipynb` notebook additionally relies on `matplotlib` and `kagglehub[pandas-datasets]`, which aren't needed to run the Streamlit app itself.
 
 ### 4. Download and Prepare the Dataset
 
