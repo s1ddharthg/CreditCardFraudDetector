@@ -1,6 +1,17 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import sys
+
+try:
+    import sklearn.compose._column_transformer as _ct_mod
+    if not hasattr(_ct_mod, "_RemainderColsList"):
+        class _RemainderColsList(list):
+            pass
+        _ct_mod._RemainderColsList = _RemainderColsList
+except Exception:
+    pass
+
 
 # Load the model
 @st.cache_resource
