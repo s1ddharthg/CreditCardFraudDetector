@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import sys
 
 try:
     import sklearn.compose._column_transformer as _ct_mod
