@@ -1,30 +1,31 @@
-# 💳 Credit Card Fraud Detection Prediction App
+# Credit Card Fraud Detection Prediction App
 
 A modern, end-to-end Machine Learning web application designed to detect fraudulent credit card transactions. The project features a comprehensive exploratory data analysis (EDA) pipeline, a scikit-learn model training workflow, and an interactive **Streamlit** dashboard for real-time predictions.
 
 ---
 
-## 📊 Badges
+## Badges
 
-[![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 The app is deployed on Streamlit Community Cloud:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://transactionfrauddetector.streamlit.app/)
+[![Open in Streamlit](https://img.shields.io/badge/Open%20in%20Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://transactionfrauddetector.streamlit.app/)
 
-👉 **[transactionfrauddetector.streamlit.app](https://transactionfrauddetector.streamlit.app/)**
+**[transactionfrauddetector.streamlit.app](https://transactionfrauddetector.streamlit.app/)**
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 *   **Interactive Web App**: Simple and elegant user interface built with **Streamlit** to input transaction details and get real-time fraud predictions.
 *   **Predictive Model Pipeline**: Robust data preprocessing (numerical scaling and categorical one-hot encoding) combined with a **Logistic Regression** classifier.
@@ -33,7 +34,7 @@ The app is deployed on Streamlit Community Cloud:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 ├── data/                       # Downloaded dataset directory
@@ -49,7 +50,7 @@ The app is deployed on Streamlit Community Cloud:
 
 ---
 
-## 📥 Dataset Information
+## Dataset Information
 
 The model is trained on the **Fraud Detection Dataset** hosted on Kaggle. It contains synthetic transactions representing typical credit card usage with normal and fraudulent labelings.
 
@@ -58,7 +59,7 @@ The model is trained on the **Fraud Detection Dataset** hosted on Kaggle. It con
 
 ---
 
-## ⚙️ Setup & Installation Instructions
+## Setup & Installation Instructions
 
 Follow these step-by-step instructions to get the application running on your local machine:
 
@@ -124,6 +125,6 @@ Open `http://localhost:8501` in your browser to interact with the application.
 
 ---
 
-## 🛡️ License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](file:///c:/GH/ML/CreditCardFraudDetector/LICENSE) file for details.
